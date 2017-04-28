@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "../../lib-ngc/es5/",
+    "baseUrl": "",
+    "types": []
+  },
+  "files": [
+    "./index.ts",
+    "./typings.d.ts"
+  ],
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true,
+    "strictMetadataEmit": true,
+    "skipTemplateCodegen": true,
+    "flatModuleOutFile": "bistel-chart.js",
+    "flatModuleId": "bistel-chart",
+    "genDir": "../../lib-ngc/lib-gen-dir/"
+  }
+}

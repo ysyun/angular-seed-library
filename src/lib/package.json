@@ -1,0 +1,21 @@
+{
+  "name": "bistel-chart",
+  "version": "1.0.0",
+  "description": "Bistel MIP Chart",
+  "main": "./bistel-chart.umd.js",
+  "module": "./bistel-chart.es5.js",
+  "es2015": "./bistel-chart.js",
+  "typings": "./bistel-chart.d.ts",
+  "author": "",
+  "license": "MIT",
+  "repository": {},
+  "engines": {
+    "node": ">= 6.9.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+  },
+  "peerDependencies": {
+    "@angular/core": ">=4.0.0 <5.0.0 || >=4.0.0-beta <5.0.0"
+  }
+}

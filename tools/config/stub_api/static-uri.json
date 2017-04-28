@@ -1,0 +1,22 @@
+[
+    {
+        "path": "/assets/"
+    },
+    {
+        "path": "/app/"
+    },
+    {
+        "path": "/css/"
+    },
+    {
+        "path": "/js/"
+    },
+    {
+        "path": "/about",
+        "index": true
+    },
+    {
+        "path": "/stubapi",
+        "index": true
+    }
+]

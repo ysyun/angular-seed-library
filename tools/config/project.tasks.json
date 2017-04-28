@@ -1,0 +1,24 @@
+{
+  "test": [
+    "tslint",
+    "build.test",
+    "karma.run"
+  ],
+
+  "serve": [
+    "build.dev",
+    "watch.dev",
+    "server.all.start"
+  ],
+
+  "build.lib.dev": [
+    "initialize",
+    "clean.lib",
+    "clean.ngc",
+    "copy.ngc",
+    "compile.ngc",
+    "build.bundles.ngc.rollup",
+    "copy.lib.file"
+  ]
+}
+
