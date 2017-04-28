@@ -491,6 +491,10 @@ export class SeedConfig {
       'rxjs': {
         main: 'Rx.js',
         defaultExtension: 'js'
+      },
+      'bistel-chart': {
+        main: 'bundles/bistel-chart.umd.js',
+        defaultExtension: 'js'
       }
     }
   };
