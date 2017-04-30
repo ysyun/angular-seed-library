@@ -23,7 +23,7 @@ export = () => {
     join(Config.LIB_SRC, '**/*.json'),
     '!' + join(Config.LIB_SRC, '**/*.css'),
     '!' + join(Config.LIB_SRC, '**/*.html')
-  ].concat(Config.EXCLUDE_COPING_FILES.map((excludefile: string) => '!' + join(Config.LIB_SRC, excludefile) ));
+  ].concat(Config.EXCLUDE_COPING_FILES_IN_PROD.map((excludefile: string) => '!' + join(Config.LIB_SRC, excludefile) ));
 
   const result = gulp.src(src)
     .pipe(plugins.plumber())

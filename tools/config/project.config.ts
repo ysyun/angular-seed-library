@@ -31,7 +31,7 @@ export class ProjectConfig extends SeedConfig {
    *
    * @reference: tasks/seed/copy.prod.ts, build.assets.prod.ts, build.html_css.ts
    */
-  EXCLUDE_COPING_FILES: [string];
+  EXCLUDE_COPING_FILES_IN_PROD: [string];
 
   LIB_NAME: string;
   LIB_SRC: string;
@@ -60,8 +60,8 @@ export class ProjectConfig extends SeedConfig {
     this.LIB_ES6_DIR = `${this.LIB_COMPILE_DIR}/es2015`;
     this.LIB_DIST_DIR = `${this.DIST_DIR}/lib`;
 
-    // ADD EXCLUDE_COPING_FILES
-    this.EXCLUDE_COPING_FILES = ['**/test/*.txt', '**/*.spec.ts'];
+    // ADD EXCLUDE_COPING_FILES_IN_PROD
+    this.EXCLUDE_COPING_FILES_IN_PROD = ['**/test/*.txt', '**/*.spec.ts'];
 
     // Add `NPM` third-party libraries to be injected/bundled.
     this.NPM_DEPENDENCIES = [

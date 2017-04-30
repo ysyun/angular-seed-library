@@ -44,7 +44,7 @@ const abtractSCSSFiles  = join(Config.SCSS_SRC, '**', '*.scss');
 function prepareTemplates() {
   return gulp.src([
       join(Config.APP_SRC, '**', '*.html')
-    ].concat(Config.EXCLUDE_COPING_FILES.map((excludefile: string) => '!' + join(Config.APP_SRC, excludefile) )))
+    ].concat(Config.EXCLUDE_COPING_FILES_IN_PROD.map((excludefile: string) => '!' + join(Config.APP_SRC, excludefile) )))
     .pipe(gulp.dest(Config.TMP_DIR));
 }
 
@@ -100,7 +100,7 @@ function processComponentCss() {
   return gulp.src([
     join(Config.APP_SRC, '**', '*.css'),
     '!' + join(Config.APP_SRC, 'assets', '**', '*.css')
-  ].concat(Config.EXCLUDE_COPING_FILES.map((excludefile: string) => '!' + join(Config.APP_SRC, excludefile) )))
+  ].concat(Config.EXCLUDE_COPING_FILES_IN_PROD.map((excludefile: string) => '!' + join(Config.APP_SRC, excludefile) )))
     .pipe(isProd ? plugins.cached('process-component-css') : plugins.util.noop())
     .pipe(plugins.postcss(processors))
     .on('error', reportPostCssError)

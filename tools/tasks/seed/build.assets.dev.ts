@@ -18,7 +18,6 @@ export =
         '!' + join(Config.APP_SRC, '**', '*.scss'),
         '!' + join(Config.APP_SRC, '**', '*.sass')
       ].concat(Config.TEMP_FILES.map((p) => { return '!' + p; }));
-      //  .concat(Config.EXCLUDE_COPING_FILES.map((excludefile: string) => '!' + join(Config.APP_SRC, excludefile) )));
 
       return gulp.src(paths)
         .pipe(gulp.dest(Config.APP_DEST));

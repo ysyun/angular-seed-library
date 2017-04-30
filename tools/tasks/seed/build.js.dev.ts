@@ -29,7 +29,6 @@ export =
         '!' + join(Config.APP_SRC, '**/*.e2e-spec.ts'),
         '!' + join(Config.APP_SRC, `**/${Config.NG_FACTORY_FILE}.ts`)
       ];
-      //.concat(Config.EXCLUDE_COPING_FILES.map((excludefile: string) => '!' + join(Config.APP_SRC, excludefile) )));
 
       let projectFiles = gulp.src(src);
       let result: any;
