@@ -399,7 +399,7 @@ export class SeedConfig {
         'node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.js',
       '@angular/router/testing': 'node_modules/@angular/router/bundles/router-testing.umd.js',
 
-      'bistel-chart': 'dist/lib/bundles/bistel-chart.umd.js',
+      'bistel-chart': 'node_modules/bistel-component/bundles/bistel-chart.umd.js',
 
       'app/*': '/app/*',
 
