@@ -1,7 +1,7 @@
 {
   "name": "angular-library",
   "version": "1.0.0",
-  "description": "Bistel MIP Chart",
+  "description": "Angular library using ngc",
   "main": "./angular-library.umd.js",
   "module": "./angular-library.es5.js",
   "es2015": "./angular-library.js",

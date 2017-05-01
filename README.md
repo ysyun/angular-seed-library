@@ -1,4 +1,4 @@
-# BISTel MI Platform Chart 
+# Angular library using ngc
 
 ## Usage
 ```bash

@@ -48,7 +48,7 @@ export class ProjectConfig extends SeedConfig {
     /* Enable typeless compiler runs (faster) between typed compiler runs. */
     // this.TYPED_COMPILE_INTERVAL = 5;
 
-    this.APP_TITLE = 'BISTel MIP Chart Demo';
+    this.APP_TITLE = 'Angular Library Demo';
 
     this.JS_PROD_APP_DEBUG_BUNDLE = 'angular-library-debug.js';
 

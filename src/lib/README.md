@@ -1,4 +1,4 @@
-# BISTel MI Platform Component 
+# Angular Library using @angular/compiler-cli (ngc)
 
 ## Usage
 ```bash
