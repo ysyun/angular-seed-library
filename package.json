@@ -1,9 +1,9 @@
 {
-  "name": "bistel-chart",
+  "name": "angular-library-ngc",
   "version": "1.0.0",
-  "description": "BISTel Chart Library",
+  "description": "Angular Library using ngc",
   "repository": {
-    "url": "ssh://git@stash.bistel.com:7999/ac/mip-chart.git"
+    "url": "https://github.com/ysyun/angular-seed-library-ngc.git"
   },
   "scripts": {
     "build.lib.dev": "gulp build.lib.dev --color --env-config dev",

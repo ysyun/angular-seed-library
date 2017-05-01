@@ -8,12 +8,12 @@ $ build.sh
 When we execute build.sh (or npm run build), it create dist folder to install into mip-portal
 
 ## Installation
-if bistel-chart dist folder is /Users/myid/bistel-chart/dist
+if angular-library dist folder is /Users/myid/angular-library/dist
 ```bash
 $ cd mip-portal
-$ npm install /Users/myid/bistel-chart/dist
+$ npm install /Users/myid/angular-library/dist
 ```
-The bistel-chart will be installed into node_modules/bistel-chart folder.
+The angular-library will be installed into node_modules/angular-library folder.
 
 ## Tech
 This is a simple library quickstart for Angular libraries, implementing the

@@ -14,8 +14,8 @@
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
-    "flatModuleOutFile": "bistel-chart.js",
-    "flatModuleId": "bistel-chart",
+    "flatModuleOutFile": "angular-library.js",
+    "flatModuleId": "angular-library",
     "genDir": "../../lib-ngc/lib-gen-dir/"
   }
 }

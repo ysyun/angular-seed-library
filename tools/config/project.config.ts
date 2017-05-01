@@ -50,9 +50,9 @@ export class ProjectConfig extends SeedConfig {
 
     this.APP_TITLE = 'BISTel MIP Chart Demo';
 
-    this.JS_PROD_APP_DEBUG_BUNDLE = 'bistel-chart-debug.js';
+    this.JS_PROD_APP_DEBUG_BUNDLE = 'angular-library-debug.js';
 
-    this.LIB_NAME = 'bistel-chart';
+    this.LIB_NAME = 'angular-library';
     this.LIB_SRC = 'src/lib';
     this.LIB_COMPILE_DIR = 'lib-ngc';
     this.LIB_TMP_DIR = `${this.LIB_COMPILE_DIR}/tmp`;

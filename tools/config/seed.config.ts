@@ -285,7 +285,7 @@ export class SeedConfig {
    * The name of the bundle file to include all JavaScript application files.
    * @type {string}
    */
-  JS_PROD_APP_BUNDLE = 'bistel-chart.js';
+  JS_PROD_APP_BUNDLE = 'angular-library.js';
 
   /**
    * The required NPM version to run the application.
@@ -399,7 +399,7 @@ export class SeedConfig {
         'node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.js',
       '@angular/router/testing': 'node_modules/@angular/router/bundles/router-testing.umd.js',
 
-      'bistel-chart': 'node_modules/bistel-component/bundles/bistel-chart.umd.js',
+      'angular-library': 'node_modules/bistel-component/bundles/angular-library.umd.js',
 
       'app/*': '/app/*',
 
@@ -492,8 +492,8 @@ export class SeedConfig {
         main: 'Rx.js',
         defaultExtension: 'js'
       },
-      'bistel-chart': {
-        main: 'bundles/bistel-chart.umd.js',
+      'angular-library': {
+        main: 'bundles/angular-library.umd.js',
         defaultExtension: 'js'
       }
     }
