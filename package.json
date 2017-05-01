@@ -48,7 +48,7 @@
   },
   "author": "Peter Yun <ysyun>",
   "angular-seed-author": "Minko Gechev <mgechev>",
-  "license": "Commercial",
+  "license": "MIT",
   "devDependencies": {
     "@angular/compiler-cli": "^4.1.0",
     "@angular/platform-server": "^4.1.0",

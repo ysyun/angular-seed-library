@@ -11,7 +11,7 @@ export class ProjectConfig extends SeedConfig {
 
   PROJECT_TASKS_DIR = join(process.cwd(), this.TOOLS_DIR, 'tasks', 'project');
 
-  STUB_API_LOG_PREFIX = 'MIP-CHART';
+  STUB_API_LOG_PREFIX = 'LIBRARY';
 
   /**
    * production bundle file for debuggin
